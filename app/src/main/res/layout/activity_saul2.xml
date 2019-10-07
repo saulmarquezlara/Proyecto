@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".saul2Activity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/Titulo3"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="352dp"
+        android:layout_height="443dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_margin="28dp"
+                android:onClick="cargaraccion"
+                android:text="@string/Boton1"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="218dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="28dp"
+                android:onClick="cargarficcion"
+                android:text="@string/Boton3"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="396dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_margin="28dp"
+                android:onClick="cargarclasica"
+                android:text="@string/Boton2"
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="307dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="28dp"
+                android:onClick="cargarcomedia"
+                android:text="@string/Boton5"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="580dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="28dp"
+                android:onClick="cargardrama"
+                android:text="@string/Boton4"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="484dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="28dp"
+                android:onClick="cargarinfantil"
+                android:text="@string/Boton6"
+                tools:layout_editor_absoluteX="267dp"
+                tools:layout_editor_absoluteY="221dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="28dp"
+                android:onClick="cargarmusical"
+                android:text="@string/Boton7"
+                tools:layout_editor_absoluteX="267dp"
+                tools:layout_editor_absoluteY="309dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="28dp"
+                android:onClick="cargarromance"
+                android:text="@string/Boton8"
+                tools:layout_editor_absoluteX="267dp"
+                tools:layout_editor_absoluteY="393dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="28dp"
+                android:onClick="cargarsuspenso"
+                android:text="@string/Boton9"
+                tools:layout_editor_absoluteX="268dp"
+                tools:layout_editor_absoluteY="481dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="28dp"
+                android:onClick="cargarterror"
+                android:text="@string/Boton10"
+                tools:layout_editor_absoluteX="267dp"
+                tools:layout_editor_absoluteY="577dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

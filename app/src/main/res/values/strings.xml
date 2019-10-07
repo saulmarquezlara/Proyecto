@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">saulmarquezlara</string>
+    <string name="Titulo">Bienvenido</string>
+    <string name="Imagen1">Bienvenida</string>
+    <string name="Titulo2">Saúl Márquez Lara</string>
+    <string name="Boton1">Acción</string>
+    <string name="Boton2">Clásica</string>
+    <string name="Boton3">Ciencia Ficción</string>
+    <string name="Boton4">Drama</string>
+    <string name="Boton5">Comedia</string>
+    <string name="Boton6">Infantil</string>
+    <string name="Boton7">Musical</string>
+    <string name="Boton8">Romance</string>
+    <string name="Boton9">Suspenso</string>
+    <string name="Boton10">Terror</string>
+    <string name="Titulo3">Categoria peliculas</string>
+    <string name="volver">volver</string>
+    <string name="accionimagen">accionimagen</string>
+    <string name="ficcionimagen">ficcionimagen</string>
+    <string name="clasicaimagen">clasicaimagen</string>
+    <string name="comediaimagen">comediaimagen</string>
+    <string name="dramaimagen">dramaimagen</string>
+    <string name="infantilimagen">infantilimagen</string>
+    <string name="musicalimagen">musicalimagen</string>
+    <string name="romanceimagen">romanceimagen</string>
+    <string name="suspensoimagen">suspensoimagen</string>
+    <string name="terrorimagen">terrorimagen</string>
+    <string name="txtaccion">Peluculas de acción son donde sale arnol shuashesnaiger</string>
+    <string name="texto">Las peliculas de accion son muy buenas, deberia de ver una</string>
+    <string name="descripcion">Las peliculas de ciencia ficcion no son verdaderas, no se dejen guiar por lo que ven. Saludos</string>
+    <string name="Descripcion" translatable="false">Este tipo de películas suele ser una atracción para personas con un gusto a cortometrajes un poco antuguos, por lo que existen diversidad de estas.</string>
+    <string name="descripcion1">Esta categoría va dirigida a publico que gusta de buen humor y busca divertirse un rato, por lo general este tipo de películas triunfan en los cines.</string>
+    <string name="Texto2">Este tipo de películas muestra una gran historia donde existe una gran dramatización y puede llegar a sorprender a mas de uno.</string>
+    <string name="titulo3">Esta categoría va dirigida a todos los niño y niñas que les gusten las caricaturas de todo tipo.</string>
+    <string name="titulo">Esta categoría se basa en musicales y bailables para las personas que les gusta este tipo de actividades.</string>
+    <string name="texto2">Esta categoría va a dirigida a la mujeres adolescentes que tienen un gran gusto por lo romántico, en este tipo de películas suele presentar una audiencia mayor feminista.</string>
+    <string name="Descripcion3">Las películas de suspenso suelen ser las mas llamativas para publico mayor de edad ya que se presentan muchas situaciones que atraen la atención de los espectadores.</string>
+    <string name="Descripcion4">Este tipo de películas es para personas mayores de edad y que no sean sensibles, muchas de las veces las imágenes mostradas en este tipo de rodajes suelen ser muy fuertes.</string>
+</resources>
